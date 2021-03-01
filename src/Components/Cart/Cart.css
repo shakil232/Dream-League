@@ -1,0 +1,28 @@
+
+.review{
+    margin-left: 50px;
+    font-weight: 700;
+    color: rebeccapurple;
+}
+#counter{
+    color: rebeccapurple;
+    font-weight: 700;
+}
+#grand{
+    margin-top: 5px;
+    color: rebeccapurple;
+    font-size: 18px;
+    font-weight: 700;
+}
+.counter{
+    margin-left: 4px;
+    color: orangered;
+    box-shadow: 5px 5px 10px gray; 
+    padding: 2px;
+}
+.grand{
+    margin-left: 4px;
+    color: orangered;
+    box-shadow: 5px 5px 10px gray; 
+    padding: 2px;
+}

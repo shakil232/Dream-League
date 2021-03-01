@@ -1,18 +1,63 @@
 
 
-
  .player-profile{
-    width: 280px;
-    height: 430px;
+    width: 300px;
+    height: 450px;
     box-shadow: 5px 5px 10px lightgrey;
     border-radius: 8px;
-    text-align: center;
-       
+         
 }
-.player-profile img{
+.player-image img{
    width: 50%;
+   margin-left: 50px;
+}
+.player-details{
+   text-align: justify;
+}
+.salary{
+   color:rebeccapurple;
+   background-color: lightgray;
+   text-align: center;
+   font-weight: 700;
 }
 .name{
-   color: Indigo;
-   font-weight: 700;
+   color: tomato;
+   font-weight: 900;
+   
+}
+.star{
+   color: goldenrod;
+}
+.star-half{
+   color:goldenrod
+}
+.font-icon{
+   margin-right: 5px;
+   color: rebeccapurple;
+}
+.player-info{
+   display: flex;
+}
+.info-left{
+   width: 170px;
+   border-right: 1px solid lightgrey;
+   padding: 5px;
+}
+.info-right{
+   margin-left: 10px;
+}
+.button{
+   margin-left: 15px;
+  margin-right: 8px;
+  background-color:orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+  transition: 1s;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button:hover{
+   color:white;
+   font-weight: 500;
+   background-image: linear-gradient(to right, tomato, blue);
 }
