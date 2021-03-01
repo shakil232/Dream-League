@@ -2,6 +2,7 @@
 .head-container{
     background-color: whitesmoke;
     line-height: 35px;
+    box-shadow: 5px 5px 10px lightgray;
 }
 
 nav a{

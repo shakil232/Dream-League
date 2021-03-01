@@ -1,6 +1,6 @@
 
 .review{
-    margin-left: 40px;
+   
     font-weight: 700;
     color: tomato;
 }
@@ -19,25 +19,23 @@
     font-weight: 700;
 }
 .counter{
-    margin-left: 4px;
-    color: orangered;
+   color: orangered;
     box-shadow: 5px 5px 10px gray; 
     padding: 2px;
 }
 .grand{
-    margin-left: 4px;
     color: orangered;
     box-shadow: 5px 5px 10px gray; 
-    padding: 2px;
+    padding: 2px;  
 }
 .buttonn{
-    margin-left: 40px;
+    margin-left: 20px;
     width: 250px;
     padding: 5px;
    background-color:rebeccapurple;
    color: skyblue;
    border: none;
-   border-radius: 5px;
+   border-radius: 7px;
    transition: 1s;
    font-weight: 500;
    cursor: pointer;
@@ -50,4 +48,31 @@
  .thumbs{
      color: skyblue;
      margin-right: 5px;
+ }
+ .salary-lish{
+     display: flex;
+     border-bottom: 1px solid lightgray;
+ }
+ .players-name{
+     width: 50%;
+     text-align: center;
+     padding: 5px;
+     color: rebeccapurple;
+     font-weight: 700;   
+ }
+ .players-salary{
+     margin-left: 60px;
+     color: rebeccapurple;
+     font-weight: 700;
+ }
+ .added-players li{
+    list-style: none;
+ }
+ #name{
+   color: purple;
+   font-weight: 500;
+ }
+ #salary{
+     margin-left: 60px;
+    
  }

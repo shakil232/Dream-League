@@ -2,13 +2,13 @@
 
  .player-profile{
     width: 300px;
-    height: 455px;
+    height: 440px;
     box-shadow: 5px 5px 10px lightgrey;
     border-radius: 8px;
          
 }
 .player-image img{
-   width: 50%;
+   width: 40%;
    margin-left: 50px;
 }
 .player-details{
@@ -51,11 +51,12 @@
    margin-left: 10px;
 }
 .button{
-   margin-left: 15px;
-  margin-right: 8px;
+  margin-left: 40px;
+  width: 220px;
+  padding: 4px;
   background-color:orange;
   border: 1px solid orange;
-  border-radius: 5px;
+  border-radius: 8px;
   transition: 1s;
   font-weight: 500;
   cursor: pointer;

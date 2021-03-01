@@ -1,8 +1,6 @@
 
 import React from 'react';
 import './Header.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartPlus  } from '@fortawesome/free-solid-svg-icons';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const Header = () => {
@@ -13,7 +11,7 @@ const Header = () => {
                 <a href="Home"> Home</a>
                 <a href="Review">Select Player Review</a>
                 <a href="Manage">Manage</a>
-                <FontAwesomeIcon className="icon" icon={faCartPlus} />
+                
             </nav>
 
         </div>

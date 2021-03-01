@@ -51,10 +51,6 @@ const Players = (props) => {
 
                     </div>
                     <div className="buttons">
-                    <button className="button">
-                        <i><FontAwesomeIcon icon={faInfoCircle} /> click to info</i>
-                    </button>
-
                     <button
                         className="button"
                         onClick={ ()=> props.handelAddPlayer(props.player)}
