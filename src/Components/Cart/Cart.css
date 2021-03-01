@@ -1,8 +1,12 @@
 
 .review{
-    margin-left: 50px;
+    margin-left: 40px;
     font-weight: 700;
-    color: rebeccapurple;
+    color: tomato;
+}
+.clipbboard{
+    margin-right: 5px;
+    color: green;
 }
 #counter{
     color: rebeccapurple;
@@ -26,3 +30,24 @@
     box-shadow: 5px 5px 10px gray; 
     padding: 2px;
 }
+.buttonn{
+    margin-left: 40px;
+    width: 250px;
+    padding: 5px;
+   background-color:rebeccapurple;
+   color: skyblue;
+   border: none;
+   border-radius: 5px;
+   transition: 1s;
+   font-weight: 500;
+   cursor: pointer;
+ }
+ .buttonn:hover{
+    color:white;
+    font-weight: 500;
+    background-image: linear-gradient(to right, yellowgreen, green);
+ }
+ .thumbs{
+     color: skyblue;
+     margin-right: 5px;
+ }

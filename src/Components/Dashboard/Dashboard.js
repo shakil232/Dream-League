@@ -8,10 +8,16 @@ import Cart from '../Cart/Cart';
 const Dashboard = () => {
 
     const [players, setPlayers] = useState([]);
-    // const [ cart , setCart ] = useState([])
+    const [ cart , setCart ] = useState([])
+
     useEffect(() => {
         setPlayers(fakeData)
     }, [])
+    
+    const handelAddPlayer = (players) => {
+        const totalPlayers = [...cart, players];
+        setCart(totalPlayers);
+    };
 
     return (
 
@@ -19,12 +25,16 @@ const Dashboard = () => {
             {/* start playersDiv */}
             <div className="players">
                 {
-                    players.map(player => <Players player={player}></Players>)
+                    players.map(player => <Players 
+                        player={player}  
+                        handelAddPlayer={handelAddPlayer}
+                    ></Players>)
                 }
             </div>
+
             {/* start cartDiv */}
-            <div className="cart">
-               <Cart></Cart>
+            <div>
+               <Cart cart={cart}></Cart>
             </div>
             
             

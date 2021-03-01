@@ -5,8 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faStarHalfAlt, faPlusCircle, faInfoCircle, faUserCircle, faFlag, faGamepad, faEnvelope, faSocks, faPhoneVolume, faFutbol } from '@fortawesome/free-solid-svg-icons';
 
 const Players = (props) => {
-    console.log(props.player)
-    const { image, salary, name, nationality, currentClub, position, PreferredFoot, phone, email,  } = props.player
+     const { image, salary, name, nationality, currentClub, position, PreferredFoot, phone, email,  } = props.player;
     return (
         <div className="player-container ">
             
@@ -17,7 +16,7 @@ const Players = (props) => {
                 </div>
 
                 <div className="player-details mt-3">
-                    <p className="salary"><i>Transfer-${salary}</i></p>
+                    <p className="salary"><i>Transfer-Value <span className="value">${salary}</span></i></p>
                     <h5 >
                     <FontAwesomeIcon className="font-icon" icon={faUserCircle} /><i className="name">{name}</i></h5>
 
@@ -57,7 +56,11 @@ const Players = (props) => {
                     </button>
 
                     <button
-                        className="button"><i><FontAwesomeIcon icon={faPlusCircle} /> add to cart</i>
+                        className="button"
+                        onClick={ ()=> props.handelAddPlayer(props.player)}
+                        >
+                            <i><FontAwesomeIcon icon={faPlusCircle} /> 
+                        add to cart</i>
                     </button>
                 </div>
 
