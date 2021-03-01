@@ -1,8 +1,17 @@
 
+.cart{
+    box-shadow: 5px 5px 10px lightgrey;
+    margin-left: 5px;
+    width:300px;
+    height: 200px;
+    text-align: center;
+}
+
 .review{
-   
-    font-weight: 700;
+    margin-top: 3px;
+   font-weight: 700;
     color: tomato;
+    font-size: 18px;
 }
 .clipbboard{
     margin-right: 5px;
@@ -10,28 +19,24 @@
 }
 #counter{
     color: rebeccapurple;
-    font-weight: 700;
 }
 #grand{
-    margin-top: 5px;
+    margin-top: 10px;
     color: rebeccapurple;
     font-size: 18px;
-    font-weight: 700;
 }
 .counter{
    color: orangered;
-    box-shadow: 5px 5px 10px gray; 
-    padding: 2px;
 }
 .grand{
-    color: orangered;
-    box-shadow: 5px 5px 10px gray; 
-    padding: 2px;  
+    color: orangered; 
 }
+
 .buttonn{
-    margin-left: 20px;
-    width: 250px;
-    padding: 5px;
+   margin-left: 15px;
+   width: 200px;
+   margin-top: 20px;
+   padding: 5px;
    background-color:rebeccapurple;
    color: skyblue;
    border: none;

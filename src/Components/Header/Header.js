@@ -7,10 +7,10 @@ const Header = () => {
     return (
         <div className="text-center mt-1 p-2  head-container">
             <nav>
-                <a className="logo" href="logo">Dream-<span className="pro">11</span>Pro</a>
-                <a href="Home"> Home</a>
+                <a className="logo" href="logo">Dream League<span className="pro">Soccer</span></a>
+                <a href="Home"> Players</a>
                 <a href="Review">Select Player Review</a>
-                <a href="Manage">Manage</a>
+                <a href="contact">Contact</a>
                 
             </nav>
 
