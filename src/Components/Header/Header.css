@@ -1,0 +1,32 @@
+
+.head-container{
+    background-color: whitesmoke;
+    line-height: 35px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rebeccapurple;
+    padding: 15px;
+    transition: 1s;
+}
+nav a:hover{
+    color: red;
+    background-color: lightgray;
+    text-decoration: underline;
+}
+.logo{
+    margin-right: 200px;
+    font-size: 20px;
+    color: rebeccapurple;
+}
+.pro{
+    color: tomato;
+    font-size: 30px;
+}
+.icon{
+    margin-left:50px ;
+}
